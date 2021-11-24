@@ -66,7 +66,7 @@ run().catch(console.dir)
 
 
 app.get('/',(req,res)=> {
-    res.send('This is home')
+    res.send('This is fakeserver')
 })
 
 app.listen(port,()=>{
